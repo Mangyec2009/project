@@ -68,6 +68,8 @@ td,th{
 }
 table{
   border-collapse: collapse;
+  /* width: 95%; 
+  margin: auto; */
 }
 th{
   background-color: #a9a9a9;
@@ -99,10 +101,24 @@ td{
   border-radius: 5px;
 }
 .tdname{
-  width: 300px;
+  width: 400px;
   padding: 20px 0px;
 }
 .tdpos{
-  width: 200px;
+  width: 300px;
   padding: 20px 0px;
+}
+.tdphone{
+  width: 250px;
+  padding: 20px 0px;
+}
+.tdstatus{
+  width: 150px;
+}
+.posText{
+  background-color: #dadada;
+  color:black;
+  display: inline;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
